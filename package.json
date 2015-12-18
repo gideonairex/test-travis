@@ -1,0 +1,22 @@
+{
+  "name": "test-travis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Nag test nako\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gideonairex/test-travis.git"
+  },
+  "author": "Gideon Rosales <gideonrosales@gmail.com> (https://github.com/gideonairex)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gideonairex/test-travis/issues"
+  },
+  "homepage": "https://github.com/gideonairex/test-travis",
+  "dependencies": {
+    "mocha": "^2.3.4"
+  }
+}
