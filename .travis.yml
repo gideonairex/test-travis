@@ -10,10 +10,10 @@ install:
   - npm install
 
 before_script:
-  - echo "Mag start nako"
+  - ./start.sh
 
 script:
   - npm test
 
 deploy:
-  - echo "mag curl padung sa imung server dev"
+  - ./deploy.sh
